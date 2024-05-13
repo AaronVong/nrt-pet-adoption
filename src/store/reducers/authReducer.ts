@@ -1,11 +1,11 @@
 import {
   AuthenticationActionsType,
   EnumAuthenticationAction,
-} from "../actions/authAction";
+} from "@/store/actions/authAction";
 import {
   AuthenticationStateInterface,
   EnumAuthenticationStatus,
-} from "../contexts/authContext";
+} from "@/store/contexts/authContext";
 
 export default function authReducer(
   state: AuthenticationStateInterface,

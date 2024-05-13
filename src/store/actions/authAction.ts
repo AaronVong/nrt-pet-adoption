@@ -1,7 +1,4 @@
-import {
-  AccessTokenInterface,
-  AuthenticationStateInterface,
-} from "../contexts/authContext.ts";
+import { AccessTokenInterface } from "@/store/contexts/authContext";
 
 enum EnumAuthenticationAction {
   SignIn = "Sign In",

@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useReducer } from "react";
-import authReducer from "../reducers/authReducer";
+import authReducer from "@/store/reducers/authReducer";
 import {
   AuthenticationContext,
   EnumAuthenticationStatus,
   authenticationInitState,
-} from "../contexts/authContext";
-import { SignInAction, SignOffAction } from "../actions/authAction";
+} from "@/store/contexts/authContext";
+import { SignInAction, SignOffAction } from "@/store/actions/authAction";
 import { checkAuthentication } from "@/services/authentication";
 
 export default function AuthProvider({

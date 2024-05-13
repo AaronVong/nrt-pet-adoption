@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { AuthenticationActionsType } from "../actions/authAction";
+import { AuthenticationActionsType } from "@/store/actions/authAction";
 
 interface AccessTokenInterface {
   access_token: string;
